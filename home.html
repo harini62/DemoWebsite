@@ -27,8 +27,8 @@
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#teams" class="menu-btn">Teams</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
-                <li><a href="index.html" class="menu-btn">Login</a></li>
-                <li><a href="index.html" class="menu-btn">Log Out</a></li>
+                <li><a href="htmlLogin.html" class="menu-btn">Login</a></li>
+                <li><a href="htmlLogin.html" class="menu-btn">Log Out</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -61,7 +61,7 @@
     <section class="services" id="services">
         <div class="max-width">
             <h2 class="title">My services</h2>
-            <div class="serv-content">
+            <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
                        <i class="fas fa-play-circle"></i>
@@ -107,6 +107,7 @@
                 </div>
                </div>
             </div>
+            
         </div>
     </section>
 
@@ -209,7 +210,7 @@
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name</div>
-                                <div class="sub-title">Yerram Harshitha</div>
+                                <div class="sub-title">Sravanthi</div>
                             </div>
                         </div>
                         <div class="row">
@@ -229,18 +230,20 @@
                     </div>
                 </div>
                 <div class="column right">
-                    <div class="text">Message me</div>
-                    <form action="#">
+                    
+                    
+                        <div class="text">Message me</div>
+                    <form action="mailto:Yerramharshitha004@gmail.com" method="POST" enctype="text/plain">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
                             <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
